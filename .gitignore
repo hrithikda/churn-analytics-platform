@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+.env
+node_modules/
+dist/
+.vite/
+frontend/src/test-output.css
+ml/metrics.json
+data/telco_churn.csv
