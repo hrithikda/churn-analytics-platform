@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { font-family: "DM Sans", sans-serif; }
+
+body { background-color: #0f1117; color: #e8eaf0; }
+
+.card {
+  background: #181c27;
+  border: 1px solid #232840;
+  border-radius: 12px;
+}
+
+.metric-card {
+  background: linear-gradient(135deg, #181c27 0%, #1e2235 100%);
+  border: 1px solid #2a3050;
+  border-radius: 12px;
+  transition: border-color 0.2s;
+}
+
+.metric-card:hover { border-color: #3b5bdb; }
+
+.badge-high { background: #f03e3e22; color: #f03e3e; border: 1px solid #f03e3e44; border-radius: 6px; padding: 2px 8px; font-size: 11px; }
+.badge-medium { background: #f59f0022; color: #f59f00; border: 1px solid #f59f0044; border-radius: 6px; padding: 2px 8px; font-size: 11px; }
+.badge-low { background: #2f9e4422; color: #2f9e44; border: 1px solid #2f9e4444; border-radius: 6px; padding: 2px 8px; font-size: 11px; }
